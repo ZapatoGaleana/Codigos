@@ -1,17 +1,4 @@
 import Model.UsuarioSeguro;
-<<<<<<< HEAD
-
-public class App {
-    public static void main(String[] args) throws Exception 
-    {
-        UsuarioSeguro usuario = new UsuarioSeguro();
-
-
-        usuario.setNombreUsuario("emiliano");
-        usuario.setPassword("Ayuda1314");
-
- //lo deje con lo que me alcanzo jsjsjs
-=======
 import java.util.Scanner;
 /*Profe ya me rindo :"v ya intente que se compare la contraseña si modifico algo ingreso la misma contraseña
 y me sale que esta denegado, pero si no es la misma me sale que es correcto. Asi que asi se lo entrego. :"v
@@ -44,6 +31,5 @@ public class App {
             System.out.println("Acceso denegado");
         }
 
->>>>>>> ccd4370 (Modificacion del trabajo)
     }
 }
