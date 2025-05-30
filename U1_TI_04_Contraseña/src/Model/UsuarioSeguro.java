@@ -13,7 +13,7 @@ public class UsuarioSeguro
         }
         else
         {
-            System.out.println("El usuario contiene cadena vacia");
+            System.out.println("El nombre contiene cadena vacia");
         }
 
     }
@@ -22,7 +22,7 @@ public class UsuarioSeguro
     {
         if (password.length() < 8) 
         {
-            System.out.println("La contraseña no con tiene 8 caracteres");    
+            System.out.println("La contraseña no contiene 8 caracteres");    
         }
 
     boolean mayuscula = false;
